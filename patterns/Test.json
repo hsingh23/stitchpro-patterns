@@ -7,43 +7,629 @@
     "description": "",
     "type": "knitting",
     "created": 1766602444333,
-    "updated": 1766602453736
+    "updated": 1766603085639
   },
   "colors": [
     {
-      "id": 1,
-      "hex": "#000000",
-      "name": "Black",
-      "description": "DMC 310"
+      "name": "1 Bleached/Optic White",
+      "hex": "#FFFFFF",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 1
     },
     {
-      "id": 2,
-      "hex": "#ffffff",
-      "name": "White",
-      "description": "DMC 5200"
+      "name": "1A Natural White",
+      "hex": "#D1CCBD",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 2
     },
     {
-      "id": 3,
-      "hex": "#ff0000",
-      "name": "Red",
-      "description": "DMC 666"
+      "name": "2 Grey Fawn",
+      "hex": "#9A8882",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 3
     },
     {
-      "id": 4,
-      "hex": "#0000ff",
-      "name": "Blue",
-      "description": "DMC 820"
+      "name": "3 Pinky Fawn",
+      "hex": "#997F76",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 4
     },
     {
-      "id": 5,
-      "hex": "#00ff00",
-      "name": "Green",
-      "description": "DMC 907"
+      "name": "4 Moorit",
+      "hex": "#4D3129",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 5
+    },
+    {
+      "name": "5 Dyed Shetland Black",
+      "hex": "#3C2C2F",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 6
+    },
+    {
+      "name": "6 Mink",
+      "hex": "#925756",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 7
+    },
+    {
+      "name": "7 Cerise",
+      "hex": "#D03C7C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 8
+    },
+    {
+      "name": "8 Bright Pink",
+      "hex": "#D0495E",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 9
+    },
+    {
+      "name": "9 Lime",
+      "hex": "#99C99C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 10
+    },
+    {
+      "name": "14 Light Blue",
+      "hex": "#81ACC6",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 11
+    },
+    {
+      "name": "16 Bright Bonnie Blue",
+      "hex": "#4068B1",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 12
+    },
+    {
+      "name": "18 Bright Blue",
+      "hex": "#0945B2",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 13
+    },
+    {
+      "name": "20 Bright Purple",
+      "hex": "#3F2471",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 14
+    },
+    {
+      "name": "21 Navy",
+      "hex": "#273251",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 15
+    },
+    {
+      "name": "23 Bright Yellow",
+      "hex": "#ECC852",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 16
+    },
+    {
+      "name": "27 Mid Grey",
+      "hex": "#696C76",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 17
+    },
+    {
+      "name": "28 Mustard Yellow",
+      "hex": "#B18447",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 18
+    },
+    {
+      "name": "29 Green Mix",
+      "hex": "#627154",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 19
+    },
+    {
+      "name": "32 Bright Tan",
+      "hex": "#9F5828",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 20
+    },
+    {
+      "name": "34 Green",
+      "hex": "#076147",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 21
+    },
+    {
+      "name": "36 Dark Navy",
+      "hex": "#1B1829",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 22
+    },
+    {
+      "name": "43 Dark Fuchsia",
+      "hex": "#631C39",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 23
+    },
+    {
+      "name": "52 Bright Fuchsia",
+      "hex": "#A01237",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 24
+    },
+    {
+      "name": "53 Peach",
+      "hex": "#EAA88A",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 25
+    },
+    {
+      "name": "54 Dark Grey",
+      "hex": "#454641",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 26
+    },
+    {
+      "name": "65 Marled Mid Green",
+      "hex": "#1D554D",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 27
+    },
+    {
+      "name": "66 Medium Yellow",
+      "hex": "#ECC377",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 28
+    },
+    {
+      "name": "71 Bright Turquoise",
+      "hex": "#22594D",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 29
+    },
+    {
+      "name": "72 Marled Mid Salmon Pink",
+      "hex": "#833F44",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 30
+    },
+    {
+      "name": "75 Light Turquoise",
+      "hex": "#5EB5AF",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 31
+    },
+    {
+      "name": "77 Dyed Black",
+      "hex": "#010101",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 32
+    },
+    {
+      "name": "78 Dark Fawn",
+      "hex": "#745E5A",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 33
+    },
+    {
+      "name": "79 Bright Green",
+      "hex": "#149744",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 34
+    },
+    {
+      "name": "80 Brown",
+      "hex": "#3A2827",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 35
+    },
+    {
+      "name": "81 Charcoal",
+      "hex": "#1A1C1C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 36
+    },
+    {
+      "name": "82 Dark Green",
+      "hex": "#2C3E3D",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 37
+    },
+    {
+      "name": "87 Brownish Purple",
+      "hex": "#442B36",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 38
+    },
+    {
+      "name": "90 Light Orangey Yellow",
+      "hex": "#D0813A",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 39
+    },
+    {
+      "name": "91 Egg Yolk Yellow",
+      "hex": "#EC8A23",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 40
+    },
+    {
+      "name": "92 Marigold",
+      "hex": "#D88010",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 41
+    },
+    {
+      "name": "93 Bright Red",
+      "hex": "#C4101C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 42
+    },
+    {
+      "name": "95 Medium Pink",
+      "hex": "#D88A9C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 43
+    },
+    {
+      "name": "96 Pale Lemon",
+      "hex": "#C4BA95",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 44
+    },
+    {
+      "name": "101 Light Pink",
+      "hex": "#CD9DA1",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 45
+    },
+    {
+      "name": "118 Medium Green",
+      "hex": "#476C40",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 46
+    },
+    {
+      "name": "121 Marled Yellow",
+      "hex": "#AB874B",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 47
+    },
+    {
+      "name": "122 Dark Mixed Orange",
+      "hex": "#633933",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 48
+    },
+    {
+      "name": "123 Cool Mid Purple",
+      "hex": "#5B3C66",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 49
+    },
+    {
+      "name": "125 Orange",
+      "hex": "#8C2A26",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 50
+    },
+    {
+      "name": "131 Purpley Blue",
+      "hex": "#434773",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 51
+    },
+    {
+      "name": "132 Azure Blue",
+      "hex": "#0A6084",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 52
+    },
+    {
+      "name": "133 Warm Mid Purple",
+      "hex": "#472B47",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 53
+    },
+    {
+      "name": "134 Aubergine",
+      "hex": "#34232E",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 54
+    },
+    {
+      "name": "135 Mid Navy",
+      "hex": "#1E4490",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 55
+    },
+    {
+      "name": "141 Dark Teal",
+      "hex": "#558077",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 56
+    },
+    {
+      "name": "142 Dark Azure Blue",
+      "hex": "#084F7B",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 57
+    },
+    {
+      "name": "202 Light Fawn",
+      "hex": "#B0A49B",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 58
+    },
+    {
+      "name": "203 Light Grey",
+      "hex": "#83868E",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 59
+    },
+    {
+      "name": "366 Marled Mixed Purple",
+      "hex": "#5B5A74",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 60
+    },
+    {
+      "name": "1280 Light Marled Blue Green",
+      "hex": "#7B8892",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 61
+    },
+    {
+      "name": "1281 Marled Peachy Orange",
+      "hex": "#886252",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 62
+    },
+    {
+      "name": "1282 Bright Green Mix",
+      "hex": "#486C4D",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 63
+    },
+    {
+      "name": "1283 Mid Marled Pink",
+      "hex": "#A36886",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 64
+    },
+    {
+      "name": "1284 Light Marled Peach Orange",
+      "hex": "#986B64",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 65
+    },
+    {
+      "name": "1285 Bright Rust Orange Mix",
+      "hex": "#974510",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 66
+    },
+    {
+      "name": "1403 Red",
+      "hex": "#A9082E",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 67
+    },
+    {
+      "name": "9113 Dark Red",
+      "hex": "#7E1E29",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 68
+    },
+    {
+      "name": "9144 Salmon Pink",
+      "hex": "#C24A51",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 69
+    },
+    {
+      "name": "9097 Orangey Red",
+      "hex": "#B22932",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 70
+    },
+    {
+      "name": "FC6 Light Pink Mix",
+      "hex": "#AE7F81",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 71
+    },
+    {
+      "name": "FC7 Salmon Orange Marl",
+      "hex": "#7C3C31",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 72
+    },
+    {
+      "name": "FC9 Light Purple Mix",
+      "hex": "#615068",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 73
+    },
+    {
+      "name": "FC11 Bright Grass Green",
+      "hex": "#364420",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 74
+    },
+    {
+      "name": "FC12 Grass Green",
+      "hex": "#605334",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 75
+    },
+    {
+      "name": "FC13 Dark Red Mix",
+      "hex": "#241311",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 76
+    },
+    {
+      "name": "FC14 Dark Purple Mix",
+      "hex": "#353138",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 77
+    },
+    {
+      "name": "FC15 Mid Sky Blue",
+      "hex": "#54769F",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 78
+    },
+    {
+      "name": "FC21 Lavender",
+      "hex": "#6B667C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 79
+    },
+    {
+      "name": "FC22 Bright Pink Mix",
+      "hex": "#AE527D",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 80
+    },
+    {
+      "name": "FC24 Light Green Mix",
+      "hex": "#708E6A",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 81
+    },
+    {
+      "name": "FC34 Bright Turquoise Mix",
+      "hex": "#37828F",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 82
+    },
+    {
+      "name": "FC37 Mid Purple Blue",
+      "hex": "#454E76",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 83
+    },
+    {
+      "name": "FC38 Orange Rust Mix",
+      "hex": "#7F473D",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 84
+    },
+    {
+      "name": "FC39 Blue Mix",
+      "hex": "#273036",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 85
+    },
+    {
+      "name": "FC41 Dark Teal Blue",
+      "hex": "#094C68",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 86
+    },
+    {
+      "name": "FC43 Yellow Fawn",
+      "hex": "#997E6C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 87
+    },
+    {
+      "name": "FC44 Brown Mix",
+      "hex": "#4E392C",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 88
+    },
+    {
+      "name": "FC45 Tan",
+      "hex": "#8F6B51",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 89
+    },
+    {
+      "name": "FC46 Dark Green Grey",
+      "hex": "#655A49",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 90
+    },
+    {
+      "name": "FC47 Denim Blue Mix",
+      "hex": "#384966",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 91
+    },
+    {
+      "name": "FC50 Light Pink Purple Mix",
+      "hex": "#AA8087",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 92
+    },
+    {
+      "name": "FC51 Mid Pink Purple Mix",
+      "hex": "#635E72",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 93
+    },
+    {
+      "name": "FC52 Purple Blue Mix",
+      "hex": "#6A6770",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 94
+    },
+    {
+      "name": "FC55 Purple Wine Mix",
+      "hex": "#472833",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 95
+    },
+    {
+      "name": "FC56 Bright Purple Mix",
+      "hex": "#2E213B",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 96
+    },
+    {
+      "name": "FC58 Marled Brown Mix",
+      "hex": "#4D3D39",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 97
+    },
+    {
+      "name": "FC61 Light Blue Grey Mix",
+      "hex": "#515C6E",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 98
+    },
+    {
+      "name": "FC62 Light Grey Green Mix",
+      "hex": "#4A524F",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 99
+    },
+    {
+      "name": "FC64 Mid Fawn Green Marl Mix",
+      "hex": "#655950",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 100
+    },
+    {
+      "name": "FC68 Brown Mix",
+      "hex": "#2A2119",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 101
+    },
+    {
+      "name": "73 Bright Orange",
+      "hex": "#FFC501",
+      "description": "Jamieson & Smith 2 Ply",
+      "id": 102
     }
   ],
   "annotations": [],
-  "stitches": {},
-  "thumbnail": "data:image/png;base64,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",
+  "stitches": {
+    "89": "slip",
+    "109": "slip",
+    "130": "slip"
+  },
+  "thumbnail": "data:image/png;base64,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",
   "grid": [
     0,
     0,
@@ -130,6 +716,112 @@
     0,
     1,
     1,
+    5,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    5,
+    0,
+    0,
+    0,
     1,
     0,
     0,
@@ -146,114 +838,8 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
     1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
+    5,
     0,
     1,
     1,
@@ -274,8 +860,8 @@
     1,
     0,
     1,
-    0,
-    0,
+    5,
+    5,
     0,
     0,
     0,
@@ -296,10 +882,10 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
+    5,
+    5,
+    5,
+    5,
     0,
     0,
     0,
